@@ -9,8 +9,8 @@ Para crear las carpetas primero debemos ubicarnos en la carpeta del usuario a do
 
 Una vez ubicados en la carpeta del usuario creamos los directorios con el comando <b>mkdir</b> y su modificador <b>-p</b> que permite crear directorios hijos en caso de que no existan.
 
-<img src="./1.png" />
-<img src="./2.png" />
+<img src="./1.PNG" />
+<img src="./2.PNG" />
 
 2. Ingresa a cada directorio y crea un archivo a través de CLI o consola, este archivo debe contener la siguiente informacion : *Nombres, Apellidos, Estatura, RH*
 
