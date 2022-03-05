@@ -18,5 +18,8 @@ Usando un editor de texto como <b>vi</b> diligenciamos la información del bisab
 <img src="./bisabuelo.PNG" />
 <img src="./bisabuela.PNG" />
 
+* Creamos las carpetas para contener la información para `nieto`,`bisnieto`,`nieta` y `bisnieta` con el comando <b>mkdir -p</b> la bandera <b>-p</b> sirve para crear las carpetas de forma recursiva.
+<img src="./5.PNG" />
+
 
 
