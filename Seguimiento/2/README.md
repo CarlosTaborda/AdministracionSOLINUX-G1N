@@ -1,5 +1,5 @@
 # Taller II (Linux)
-*Carlos Felipe Aguirre Taborda 2022-04-03*
+*Carlos Felipe Aguirre Taborda 2022-03-04*
 
 1) Recuperar contraseña de root de nuestra máquina virtual.
 
