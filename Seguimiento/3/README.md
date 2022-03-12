@@ -73,4 +73,37 @@ Para realizar la operación de descompresión de archivos utilizamos la siguient
 
 ## 5. <b>Reto:</b> Realizar un script en bash shell que haga la copia de seguridad del directorio `/etc`. a las 24h todos los dias.
 
+Con el siguiente script realizamos la copia de seguridad del directorio <b>etc</b> que guardaremos en la ruta `/home/carlos/backups` el nombre del archivo comprimido incluye la fecha de generación para evitar la sobrescritura del archivo de backups anteriores.
+
 <img src="./reto_script.png" />
+
+Ahora para hacer que el servidor ejecute el script a las 24:00 hrs añadimos un nuevo registro al crontab, el crontab nos permite indicar tareas que se ejecutarán de forma periódica en lapsos de tiempo determinados.
+
+Accedemos al crontab así: 
+
+<img src="./reto_cron1.PNG" />
+
+Ahora añadimos el registro de la tarea recurrente
+
+<img src="./reto_cron.PNG" />
+
+`0` indica el minuto 0 <br>
+`00` indica la hora 0/24 <br>
+`*` indica el día del mes, en este caso todos<br>
+`*` indica el mes, en este caso todos<br>
+`*` indica el día del mes, en este caso todos<br>
+
+<img src="./cron_explain.PNG" />
+
+
+luego con el comando <b>sh</b> y la ruta del script para ejecutarlo.
+
+Ahora listamos el contenido de la carpeta `backups` para observar el listado de archivos de respaldo:
+
+<img src="./list_backups.PNG" />
+
+
+
+
+
+
