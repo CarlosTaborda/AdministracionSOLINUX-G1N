@@ -41,7 +41,7 @@
 
 
 2) Transformar la estructura de carpetas del <b>Taller I</b> de como indica la imagen siguiente con el fin de practicar el movimiento, renombramiento de archivos y directorios de archivos y directorios 
-<img src="folder_structure_ex.png" />
+<img src="./img/folder_structure_ex.png" />
 
 * Lo primero que haremos será crear las carpetas `bisabuela` y `bisabuelo` con el comando <b>mkdir</b> 
 <img src="./img/1.PNG" />
