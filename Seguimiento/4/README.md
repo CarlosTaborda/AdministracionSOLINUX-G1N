@@ -74,6 +74,16 @@ Para cambiar unicamente el propietario de un archivo usamos el comando
 
 <img src="./img/user_own.png">
 
+## 8) Usando diferentes terminales, entre al sistema con los diferentes usuarios:*(equivoquese algunas veces por completo)*:
+
+## 9) Usando diferentes terminales, entre al sistema con los diferentes usuarios:*(equivoquese algunas veces en las claves o en el nombre de usuario)*: 
+
+## 10) Determine la cantidad de veces que el estudiante laura ingreso al sistema.
+
+Para determinar la cantidad de ingresos que se han realizado al sistema por parte de un usuario podemos hacerlo a traves de la combinación de tres comandos `last -F` *(Lista los ingresos de los usuarios al sistema)* , `grep [word]` que sirve para filtrar las lineas que contengan una palabra en un texto y por ultimo `wc -l` sirve para contar las lineas de un archivo
+
+<img src="./img/count_login_sessions.PNG">
+
 ## 11) Comprima el contenidos del directorio de los profesores en profesore.tgz y el contenido del directorio de los estudiante en un archivo estudiantes.zip
 
 Para comprimir archivos en <span style="color:#2f74b5">tgz</span> usamos
