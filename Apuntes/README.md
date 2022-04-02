@@ -55,3 +55,15 @@ Para  modificar la prioridad de un proceso usamos el comando <b>nice</b> de la s
 
 ## Usuarios y groupos
 los usuarios tienen un grupo principal y muchos secundarios, para ver en detalle los grupos de un usuario se usa `id [username]`
+
+# Redirecciones y tuberias
+
+`0` stdin salida estandar con error y sin error <br>
+`1` stdout normal sin errores <br>
+`2` stderr salida con errores <br>
+
+<b style="color:blue" > > </b> Cambia el conenido del archivo de texto
+
+<b  style="color:blue"> >> </b> Agrega un contenido a un archivo manteniendo el anterior
+
+<b  style="color:blue">|</b>
