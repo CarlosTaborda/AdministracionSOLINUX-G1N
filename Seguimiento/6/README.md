@@ -1,5 +1,5 @@
 ## Taller 6
-Carlos Felipe Aguirre Taborda
+<b>2022-04-06</b> Carlos Felipe Aguirre Taborda
 
 ## 1) Crear un grupo llamado <span style="color:#3250a8"> infraestructura</span> con GID 777
 
@@ -29,6 +29,11 @@ Ahora ejecutamos el script `sh deploy_web.sh`
 Verificamos la dirección IP con el comando `ip address`
 
 <img src="./img/ipaddress.png" />
+
+Ahora ingresamos a la dirección y verificamos la página de inicio del servidor
+
+<img src="./img/server_index.png" />
+
 
 
 
