@@ -67,3 +67,24 @@ los usuarios tienen un grupo principal y muchos secundarios, para ver en detalle
 <b  style="color:blue"> >> </b> Agrega un contenido a un archivo manteniendo el anterior
 
 <b  style="color:blue">|</b>
+
+## Firewall
+`firewall-cmd --list-all`
+<br> Para añadir un puerto al firewall 
+`sudo firewall-cmd --zone=public --permanent --add-port=f3306/tcp`
+
+## DNS
+`cat /etc/resolv.conf`
+
+## Gateway
+`route -n`
+para saber si tiene internet ejecutar el comando anterior, luego hacer ping a la direccion del gateway y si responde paquetes  tiene internet
+
+## SE linux
+`cat /etc/selinux`
+para ver el estado utilizamos `getenforce` o para establecerlo usamos `setenforce [valor]` (0 permisive, 1 enforcing) para desabilitar editamos el archivo `/etc/selinux` colocamos <span style="color: #063970">
+SELINUX=disabled</span>
+
+
+taller instalar mysql en una maquina, luego intentar acceder al puerto con telnet, luego agregar el puerto al firewall `telnet ip 3306`
+para consultar la ip usamos ip a s
