@@ -1,4 +1,4 @@
-## Taller 6
+## Taller 7
 <b>2022-04-13</b> Carlos Felipe Aguirre Taborda
 
 <img src="./img/resume-work.png" />
@@ -47,7 +47,7 @@ Ahora nos queda abrir el puerto *3306* en el firewall con el comando `firewall-c
 
 Con las conexiones remotas configuradas realizamos de nuevo la conexion al puerto 3306 igual a como lo hicimos en el paso #2 con el comando <b>telnet</b>
 
-<img src="./img/success-connect.png" />
+<img src="./img/success-connect.PNG" />
 
 como podemos ver la salida del comando es distinta, indicando que pudo realizar la conexión de forma satisfactoria.
 
