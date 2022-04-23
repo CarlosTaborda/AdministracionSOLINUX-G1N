@@ -41,13 +41,13 @@ cuando realicemos este cambio reiniamos el servicio con `systemctl restart maria
 
 Ahora nos queda abrir el puerto *3306* en el firewall con el comando `firewall-cmd --permanent --zone=public --add-port=3306/tcp`
 
-<img src="./img/enable-port-database.png" />
+<img src="./img/enable-port-database.PNG" />
 
 ## 4) Realizar de nuevo conexión al puerto *3306*
 
 Con las conexiones remotas configuradas realizamos de nuevo la conexion al puerto 3306 igual a como lo hicimos en el paso #2 con el comando <b>telnet</b>
 
-<img src="./img/success-connect.PNG" />
+<img src="./img/success-connect.png" />
 
 como podemos ver la salida del comando es distinta, indicando que pudo realizar la conexión de forma satisfactoria.
 
