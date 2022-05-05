@@ -51,6 +51,10 @@ Con las conexiones remotas configuradas realizamos de nuevo la conexion al puert
 
 como podemos ver la salida del comando es distinta, indicando que pudo realizar la conexión de forma satisfactoria.
 
+## Script con condicionales para instalar nginx y httpd
+
+<a href="./deploy_web.sh" />Ruta script</a>
+
 
 
 
