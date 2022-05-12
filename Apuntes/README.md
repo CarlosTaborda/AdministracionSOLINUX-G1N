@@ -88,3 +88,39 @@ SELINUX=disabled</span>
 
 taller instalar mysql en una maquina, luego intentar acceder al puerto con telnet, luego agregar el puerto al firewall `telnet ip 3306`
 para consultar la ip usamos ip a s
+
+## Gestión de Discos
+
+
+particionar un disco
+`fdisk` 4 particiones
+`gdisk` mas de 4 particiones
+
+<br>
+
+saber informacion del disco
+`sudo parted /dev/[disco] unit MB print free`
+
+particionar un disco
+`fdisk /dev/sdb`
+para confirmar `partprobe -s`
+
+para formatear una particion `mkfs.[extension] /dev/[disco]`
+-- crear carpeta para montar disco
+`mkdir /mnt/disconnuevo`
+
+para montar disco
+`mount /dev/[particion] /mnt/disconuevo`
+
+`df -Th` para ver particiones montadas
+
+para desmontar
+
+`unmount /mnt/disconuevo`
+
+para persistir los cambios
+editar `/etc/fstab` 
+usamos `blkid` para obtener uuid
+`partprobe -s`
+
+
