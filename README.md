@@ -10,5 +10,6 @@ Repositorio para almacenar los trabajos de clase de la asignatura Linux I año 2
     <li><a href="https://github.com/CarlosTaborda/Linux_I/tree/main/Seguimiento/5">Taller V</a>
     <li><a href="https://github.com/CarlosTaborda/Linux_I/tree/main/Seguimiento/6">Taller VI</a>
     <li><a href="https://github.com/CarlosTaborda/Linux_I/tree/main/Seguimiento/7">Taller VII</a>
+    <li><a href="https://github.com/CarlosTaborda/Linux_I/tree/main/Seguimiento/8">Taller VIII</a>
 
 <ul>
